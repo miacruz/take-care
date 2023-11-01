@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&display=swap');
+
+body {
+   margin: 40px auto;
+   background-color: #F2F2E9;
+   color: #82703D;
+ }
+ 
+ p {
+  font-family: 'Nanum Gothic Coding', cursive;
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+main {
+  width: 1120px;
+  margin: auto;
+}
+
+header {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  margin: 3%;
+}
+ 
+ .center{
+    text-align: center;
+    margin: auto;
+ }
+ 
+ canvas {
+   display: block;
+   margin: auto;
+ }
+
+ footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-links{
+  padding: 0 40px 0px 40px;
+}
+
+
+button{
+  font-family: 'Nanum Gothic Coding', cursive;
+  font-size: 20px;
+  background-color: #AFB8A9;
+  color: #82703D;
+  border-style: none;
+  padding: 15px;
+}
+
+button:hover{
+  background-color: #C1C9BB;
+}
